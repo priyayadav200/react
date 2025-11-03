@@ -8,9 +8,9 @@ export default function ThemeBtn() {
     const darkModeStatus = e.currentTarget.checked;
 
     if (darkModeStatus) {
-      darkTheme(); // ✅ Checked → Dark mode
+      darkTheme();
     } else {
-      lightTheme(); // ✅ Unchecked → Light mode
+      lightTheme(); 
     }
   };
 
