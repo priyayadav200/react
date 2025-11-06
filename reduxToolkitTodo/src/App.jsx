@@ -1,0 +1,19 @@
+
+
+import './App.css'
+import AddTodo from './Components/AddTodo'
+import Todos from './Components/Todos'
+
+function App() {
+  
+  return (
+    <>
+    <h1>Redux Toolkit Todo App</h1>
+    <AddTodo />
+    <Todos />
+      
+    </>
+  )
+}
+
+export default App
